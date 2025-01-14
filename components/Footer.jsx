@@ -36,6 +36,14 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <strong>
+                <span
+                  style={{ textDecoration: "underline" }}
+                  className="list-inline-item elemento-footer subtitulo"
+                >
+                  WhatsApp
+                </span>
+              </strong>
               <svg
                 id="WhatsApp"
                 className="bi bi-whatsapp text-light icono-footer"
@@ -55,6 +63,14 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <strong>
+                <span
+                  style={{ textDecoration: "underline" }}
+                  className="list-inline-item elemento-footer subtitulo"
+                >
+                  Instagram
+                </span>
+              </strong>
               <svg
                 id="Instagram"
                 className="bi bi-instagram text-light icono-footer"

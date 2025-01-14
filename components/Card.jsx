@@ -10,7 +10,7 @@ const Card = ({ imagen, titulo, parrafo }) => {
           alt={titulo}
         />
         <div className="card-body p-4 card-desc">
-          <h4 className="card-title titulo titulo-card">{titulo}</h4>
+          <h3 className="card-title titulo titulo-card">{titulo}</h3>
           <p className="card-text parrafo parrafo-card">{parrafo}</p>
         </div>
       </div>
