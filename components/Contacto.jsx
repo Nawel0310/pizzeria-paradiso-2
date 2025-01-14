@@ -9,10 +9,10 @@ const Contacto = () => {
         <div className="row">
           <div className="col-md-12">
             <h1 className="titulo-contacto titulo">¡Conecta con Nosotros!</h1>
-            <h4 className="titulo-contacto subtitulo">
+            <h3 className="titulo-contacto subtitulo">
               Ya sea para hacer un pedido, realizar una consulta, o simplemente
               decir hola.
-            </h4>
+            </h3>
           </div>
         </div>
         <div className="row flex-row justify-content-center">
@@ -97,21 +97,23 @@ const Contacto = () => {
                 </p>
                 <div>
                   <form action="https://formspree.io/f/xbllplrk" method="POST">
-                    <label className="form-label titulo-label-card parrafo">
+                    <label className="form-label titulo-label-card parrafo" htmlFor="email">
                       Tu Email:
                     </label>
                     <input
                       className="form-control label parrafo"
                       type="email"
                       name="email"
+                      id="email"
                       required
                     />
-                    <label className="form-label titulo-label-card parrafo">
+                    <label className="form-label titulo-label-card parrafo" htmlFor="consulta">
                       Tu Consulta:
                     </label>
                     <textarea 
                       className="form-control consulta-label label text-input-consulta parrafo"
                       name="consulta"
+                      id="consulta"
                     ></textarea>
                     <div
                       id="boton-envio"
@@ -120,6 +122,7 @@ const Contacto = () => {
                       <button
                         className="btn btn-light btn-basico parrafo"
                         type="submit"
+                        aria-label="Enviar consulta por email"
                       >
                         Enviar
                       </button>

@@ -45,11 +45,11 @@ const Faq = () => {
               <span style={{ color: "rgb(220, 220, 220)" }}>A</span>
               <span style={{ color: "rgb(0, 147, 68)" }}>Q</span>
             </h1>
-            <h4 id="subtitulo-faq" className="subtitulo">
+            <h2 id="subtitulo-faq" className="subtitulo">
               Toda la información que necesitas saber está aquí.
               <br />
               ¡No tengas miedo de preguntar!
-            </h4>
+            </h2>
           </div>
         </div>
         <div className="row justify-content-center">

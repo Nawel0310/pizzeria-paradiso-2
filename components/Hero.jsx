@@ -28,12 +28,14 @@ const Hero = () => {
                 type="button"
                 data-bs-toggle="modal"
                 data-bs-target="#pizzaModal"
+                aria-label="Abrir el menú de pizzas"
               >
                 Visita Nuestro Menú
               </button>
               <a
                 className="btn btn-light btn-lg text-capitalize parrafo btn-basico btn-menu"
                 href="#contactoSection"
+                aria-label="Ir a la sección de contacto"
               >
                 Contáctanos
               </a>

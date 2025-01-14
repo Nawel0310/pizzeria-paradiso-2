@@ -37,6 +37,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <svg
+                id="WhatsApp"
                 className="bi bi-whatsapp text-light icono-footer"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
@@ -55,6 +56,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <svg
+                id="Instagram"
                 className="bi bi-instagram text-light icono-footer"
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"

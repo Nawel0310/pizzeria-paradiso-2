@@ -78,6 +78,7 @@ const Especialidades = () => {
             href="#carousel-1"
             role="button"
             data-bs-slide="prev"
+            aria-label="Anterior"
           >
             <span className="carousel-control-prev-icon"></span>
             <span className="visually-hidden">Previous</span>
@@ -87,6 +88,7 @@ const Especialidades = () => {
             href="#carousel-1"
             role="button"
             data-bs-slide="next"
+            aria-label="Siguiente"
           >
             <span className="carousel-control-next-icon"></span>
             <span className="visually-hidden">Next</span>
@@ -100,6 +102,7 @@ const Especialidades = () => {
               type="button"
               data-bs-target="#carousel-1"
               data-bs-slide-to={index}
+              aria-label={`Ir a la pizza ${index + 1}`}
             ></button>
           ))}
         </div>

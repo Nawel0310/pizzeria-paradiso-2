@@ -58,6 +58,7 @@ const Navbar = () => {
               <a
                 className="btn btn-light text-capitalize ms-md-2 parrafo btn-basico btn-menu"
                 href="#contactoSection"
+                aria-label="Ir a la sección de contacto"
               >
                 contacto
               </a>
@@ -67,6 +68,7 @@ const Navbar = () => {
                 className="btn btn-light text-capitalize ms-md-2 parrafo btn-basico btn-menu"
                 data-bs-target="#offcanvas-menu"
                 data-bs-toggle="offcanvas"
+                aria-label="Ver menú"
               >
                 ver menú
               </button>

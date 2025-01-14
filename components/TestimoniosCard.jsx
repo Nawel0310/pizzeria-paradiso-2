@@ -11,9 +11,10 @@ const TestimoniosCard = ({ nombre, imagen, descripcion }) => {
             width="50"
             height="50"
             src={imagen}
+            alt={nombre}
           />
           <div className="d-flex flex-row justify-content-center align-items-center align-content-center">
-            <h4 className="titulo titulo-testimonio">{nombre}</h4>
+            <h3 className="titulo titulo-testimonio">{nombre}</h3>
           </div>
         </div>
       </div>
