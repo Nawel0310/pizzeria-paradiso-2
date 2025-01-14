@@ -12,6 +12,10 @@ import Footer from "@/components/Footer";
   keywords: "Pizzeria, Buenos Aires, Argentina, Calidad, Sabor, Buen Precio",
   author: "Nahuel A. Barbaro"
 }*/
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+
+
 export const metadata = {
   title: "Pizzería Paradiso | Auténtica Pizza Artesanal en Buenos Aires",
   description:
@@ -23,7 +27,7 @@ export const metadata = {
     title: "Pizzería Paradiso | El Sabor de Italia en Buenos Aires",
     description:
       "Desde 1995, traemos la tradición italiana a tu mesa con pizzas artesanales hechas con amor. Pide delivery o visita nuestro local en Buenos Aires.",
-    url: "https://example.com",
+    url: "${BASE_URL}",
     type: "website",
     images: [
       {
