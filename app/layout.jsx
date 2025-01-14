@@ -27,7 +27,7 @@ export const metadata = {
     title: "Pizzería Paradiso | El Sabor de Italia en Buenos Aires",
     description:
       "Desde 1995, traemos la tradición italiana a tu mesa con pizzas artesanales hechas con amor. Pide delivery o visita nuestro local en Buenos Aires.",
-    url: "${BASE_URL}",
+    url: "https://pizzeria-paradiso-web.vercel.app/",
     type: "website",
     images: [
       {
