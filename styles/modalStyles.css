@@ -1,0 +1,32 @@
+.modal-header-menu {
+  border-radius: 0px;
+  background: url("/yaNoSeOpaco2.webp") top / cover, #990000;
+}
+
+.titulo-modal-menu.titulo {
+  font-size: 2rem;
+  text-align: left;
+  color: var(--bs-body-bg);
+  text-shadow: 2px 1px 0px var(--bs-emphasis-color);
+}
+
+.modal-body-comida {
+  background: url("/pizza-vector-pagina-blanco.png.png") center / contain repeat, #FFFDEF;
+}
+
+.titulo-comida-modal {
+  font-weight: bold;
+}
+
+.titulo-comdia-modal.subtitulo {
+  font-weight: bold;
+}
+
+.modal-footer-menu {
+  background: url("/yaNoSeOpaco3.svg") center / cover repeat-x, #990000;
+  border-radius: 0px;
+}
+
+#bebidasAlcoholicasModal {
+}
+

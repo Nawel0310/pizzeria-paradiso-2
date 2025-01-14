@@ -1,0 +1,36 @@
+.offcanvas-header.offcanvas-menu-header {
+  background: url("/yaNoSeOpaco2.webp") top / cover no-repeat, #990000;
+}
+
+#title-sidebar {
+  font-size: 2rem;
+  color: var(--bs-secondary-bg);
+}
+
+.titulo-sidebar {
+  font-size: 2rem;
+  text-align: left;
+  color: #E70000;
+  text-shadow: 2px 1px 0px var(--bs-emphasis-color);
+}
+
+.link-body-emphasis.opcion-menu.custom-link.subtitulo {
+  font-weight: 600;
+}
+
+.link-body-emphasis.opcion-menu.custom-link.subtitulo:hover {
+  color: var(--bs-nav-pills-link-active-color)!important;
+  background: #E70000;
+}
+
+
+
+#offcanvas-menu {
+  background: url("/wave-left.svg"), url("/pizza-vector-pagina-blanco.png.png") left / auto repeat-y, #fffdef;
+}
+
+.row-col-menu {
+  border-bottom: 1px solid #E70000;
+  margin-top: 1rem;
+}
+

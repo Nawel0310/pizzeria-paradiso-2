@@ -1,0 +1,25 @@
+.btn-basico:hover {
+  background: #F1F1F1;
+  color: #c50000;
+  font-weight:500;
+  box-shadow: 4px 4px 0px #E70000;
+}
+
+.btn-basico {
+  background: #C50000;
+  border-style: none;
+  border-radius: 20px;
+  color: #F1F1F1;
+}
+
+.parrafo.btn-basico.btn-menu {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: 2px solid #E9E9E9 ;
+}
+
+.btn-basico.parrafo.btn-modal {
+  border: 2px solid #E9E9E9;
+}
+

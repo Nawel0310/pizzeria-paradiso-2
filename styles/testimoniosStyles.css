@@ -1,0 +1,38 @@
+#testimoniosSection {
+  background: url("/pizzaEpica3.webp.webp") bottom right / auto no-repeat, url("/wave-haikei.svg") bottom / cover no-repeat, url("/yaNoSeOpaco3.svg") top / cover repeat-x, url("/superior-wave-red.svg") center / auto repeat, #FFFDEF;
+}
+
+#titulo-testimonios {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #f1f1f1;
+  text-shadow: 2px 2px 5px #212529;
+}
+
+#subtitulo-testimonios {
+  font-size: 3.5rem;
+  color: #f1f1f1;
+  text-shadow: 2px 2px 5px #212529;
+  margin-bottom: 0px;
+}
+
+.titulo.titulo-testimonio {
+  color: #f1f1f1!important;
+  text-shadow: 1px 1px 9px var(--bs-emphasis-color);
+}
+
+.bg-body-tertiary.parrafo.parrafo-testimonios {
+  background: url("/pizzafondoCardBody.webp.webp") top / auto no-repeat;
+  box-shadow: 0px 0px 8px 0px;
+  border-radius: 30px!important;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.div-testimonios {
+}
+
+.fit-cover.img-testimonios {
+  box-shadow: 0px 0px 8px 0px;
+}
+

@@ -1,0 +1,86 @@
+#contactoSection {
+  height: initial;
+  background: url("/pizzaCaja.webp.webp") top right / contain no-repeat, url("/yaNoSeOpaco3.svg") center / contain repeat-x, url("/superior-wave-red.svg") top / cover no-repeat, #FFFDEF;
+}
+
+.titulo-social-card.subtitulo {
+  font-weight: bold;
+  margin: 0px;
+  color: #990000;
+}
+
+.icono-contacto {
+  margin-right: 8px;
+  font-size: 24px;
+  color: #990000;
+}
+
+.link-social-card.subtitulo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #990000;
+}
+
+#boton-envio {
+  margin-top: 1rem;
+}
+
+.titulo-contacto.titulo {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #f1f1f1;
+  text-shadow: 2px 2px 5px #212529;
+}
+
+.subtitulo-contacto.subtitulo {
+}
+
+.div-contacto-titulo {
+  margin-bottom: 8px;
+}
+
+.titulo-contacto.subtitulo {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #f1f1f1;
+  text-shadow: 2px 2px 5px #212529;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.social-card {
+  margin-bottom: 1rem;
+  border: 2px solid #E9E9E9;
+  box-shadow: 0px 0px 8px 0px;
+  border-radius: 30px!important;
+  background: url("/pizzafondoCardBody.webp.webp") center / cover no-repeat, #F8F9FA;
+}
+
+.contenedor-contacto {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+  #contactoSection {
+    height: initial;
+    background: url("/yaNoSeOpaco3.svg") center / cover repeat, url("/superior-wave-red.svg") top / cover no-repeat, #FFFDEF;
+  }
+}
+
+.texto-social-card.parrafo {
+  font-weight: 500;
+}
+
+.titulo-label-card.parrafo {
+  font-weight: 500;
+}
+
+.label {
+  border: 2px solid #E9E9E9;
+}
+
+.consulta-label.label.text-input-consulta {
+  height: 8rem;
+}
+

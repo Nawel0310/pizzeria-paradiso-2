@@ -1,0 +1,26 @@
+#navbar {
+  background: url("/yaNoSeOpaco2.webp"), #990000!important;
+  border-bottom: 2px solid #F1F1F1 ;
+}
+
+#navbar-toggler {
+  background: #F8F9FA;
+}
+
+#brand-id {
+  text-shadow: 1px 1px 3px var(--bs-navbar-active-color);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.bs-icon-sm.bs-icon-circle.bs-icon-primary.bs-icon.bg-icon {
+  background: #CF2734;
+  border: 2px solid #F1F1F1 ;
+}
+
+.fit-cover.img-card-about-us {
+  height: 200px;
+}
+
+
+

@@ -1,0 +1,35 @@
+{
+    "comidas": [
+      {
+        "titulo": "Calzone Clásico",
+        "descripcion": "Masa de pizza rellena con salsa de tomate, queso mozzarella, jamón cocido, champiñones y orégano.",
+        "precio": 1300
+      },
+      {
+        "titulo": "Lasaña de Carne",
+        "descripcion": "Capas de pasta fresca, salsa boloñesa, queso ricotta, mozzarella y parmesano gratinado al horno.",
+        "precio": 1900
+      },
+      {
+        "titulo": "Pan de Ajo con Queso",
+        "descripcion": "Pan horneado con mantequilla de ajo, cubierto con queso mozzarella derretido y un toque de perejil fresco.",
+        "precio": 700
+      },
+      {
+        "titulo": "Ensalada Caprese",
+        "descripcion": "Rodajas de tomate fresco, queso mozzarella, hojas de albahaca, aceite de oliva virgen extra y vinagre balsámico.",
+        "precio": 950
+      },
+      {
+        "titulo": "Alitas de Pollo BBQ",
+        "descripcion": "Alitas de pollo doradas, cubiertas con salsa barbacoa casera, servidas con bastones de apio y dip de queso azul.",
+        "precio": 1200
+      },
+      {
+        "titulo": "Bastones de Mozzarella",
+        "descripcion": "Bastones de queso mozzarella empanizados, fritos y servidos con salsa marinara casera.",
+        "precio": 1000
+      }
+    ]
+  }
+  

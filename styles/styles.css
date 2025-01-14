@@ -1,0 +1,63 @@
+/* Lobster - Regular */
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../public/fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+}
+
+/* Montserrat - Todas las variantes */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100 900;
+    src: url('../public/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 100 900;
+    src: url('../public/fonts//Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Raleway - Todas las variantes */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100 900;
+    src: url('../public/fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 100 900;
+    src: url('../public/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+.subtitulo {
+  font-family: Raleway, sans-serif;
+}
+
+.titulo {
+  font-family: Lobster, serif;
+}
+
+.parrafo {
+  font-family: Montserrat, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #DCDCDC;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C0C0C0;
+  border-radius: 12px;
+}
+

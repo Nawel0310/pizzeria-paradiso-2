@@ -1,0 +1,22 @@
+#heroSection {
+  background: url("/wave-haikei.svg") bottom / cover no-repeat, url("/pizza-vector-pagina-blanco.png.png") right / cover no-repeat, #FFFDEF;
+  height: initial;
+}
+
+#tituloHero {
+  font-size: 5rem;
+  color: #E70000;
+  text-shadow: 3px 3px #000000;
+}
+
+.subtituloHero {
+  font-weight:500;
+  font-size: 1.5rem;
+}
+
+#imgHero {
+}
+
+.columna-imagen {
+}
+

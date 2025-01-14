@@ -1,0 +1,51 @@
+#especialidadesSection {
+  background: url("/wave-haikei.svg") bottom / cover no-repeat, url("/wave-haikei-up.svg") top / cover no-repeat, url("/pizza-vector-pagina-blanco.png.png") bottom / cover no-repeat, #FFFDEF;
+}
+
+.img-carousel {
+}
+
+#titulo-especialidades {
+  text-align: right;
+  font-size: 3.5rem;
+  color: #F1F1F1;
+  text-shadow: 2px 2px 8px var(--bs-body-color);
+}
+
+.parrafo-container.desc-pizza {
+  background: url("/pizzafondoCardBody.webp.webp"), #F1F1F1;
+  padding: 8px;
+  border-radius: 16px;
+  box-shadow: 4px 4px #C50000;
+  font-weight: 500;
+}
+
+.contenedor-pizzas {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  height: initial;
+}
+
+.btn-basico.parrafo.btn-especialidades {
+  font-size: 18px;
+}
+
+.titulo-container.titulo {
+  font-size: 3rem;
+  text-shadow: 2px 2px var(--bs-emphasis-color);
+  font-weight: bold;
+}
+
+.boton-ordenar.div-boton-ordenar {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #carousel-1 {
+    height: 42rem;
+  }
+}
+
+.div-parrafo {
+}
+

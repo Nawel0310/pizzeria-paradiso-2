@@ -1,0 +1,63 @@
+#faq-titulo {
+  text-align: center;
+  font-size: 5rem;
+  text-shadow: 2px 2px var(--bs-emphasis-color), 0px 0px 3px var(--bs-emphasis-color);
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+#subtitulo-faq {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #f1f1f1;
+  text-shadow: 2px 2px 5px #212529;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#faqSection {
+  height: initial;
+  background: url("/wave-haikei.svg") bottom / cover no-repeat, url("/pizza-vector-pagina-blanco.png.png") top / auto no-repeat, url("/superior-wave-red.svg") left / cover no-repeat, #FFFDEF;
+}
+
+#faqContainer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.item-faq-heading:focus, .item-faq-heading:active {
+  background-color: #C50000 !important;
+  color: white !important;
+  box-shadow: none;
+}
+
+.item-faq-heading:not(.collapsed) {
+  background-color: #009344!important;
+  color: white !important;
+}
+
+.item-faq-heading:not(.collapsed)::after {
+  filter: brightness(0) invert(1);
+}
+
+.item-faq-heading.parrafo {
+  background: #990000;
+  font-size: 18px;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+.item-faq-parrafo {
+  font-size: 16px;
+}
+
+.item-faq-content {
+  background: url("/pizzaMasBlanca.webp.webp") repeat-x, #F1F1F1;
+  background-size: auto, auto;
+  font-weight: 500;
+}
+
+#accordion-1 {
+  box-shadow: 0px 0px 8px 0px;
+  border-radius: 10px;
+}

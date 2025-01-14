@@ -1,0 +1,35 @@
+{
+    "bebidasAlcoholicas": [
+      {
+        "titulo": "Cerveza Artesanal (500 ml)",
+        "descripcion": "Rubia, IPA, Stout.",
+        "precio": 800
+      },
+      {
+        "titulo": "Vino Tinto (Copa)",
+        "descripcion": "Malbec, Cabernet Sauvignon.",
+        "precio": 750
+      },
+      {
+        "titulo": "Vino Blanco (Copa)",
+        "descripcion": "Chardonnay, Sauvignon Blanc.",
+        "precio": 750
+      },
+      {
+        "titulo": "Campari con Naranja",
+        "descripcion": "Campari, jugo de naranja fresco, hielo.",
+        "precio": 900
+      },
+      {
+        "titulo": "Cerveza Lager (Botella 330 ml)",
+        "descripcion": "Heineken, Stella Artois, Quilmes.",
+        "precio": 600
+      },
+      {
+        "titulo": "Gin Tonic",
+        "descripcion": "Gin, agua tónica, rodaja de lima o limón, hielo.",
+        "precio": 950
+      }
+    ]
+  }
+  

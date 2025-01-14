@@ -1,0 +1,26 @@
+.card-desc {
+  background: url("/pizzafondoCardBody.webp.webp") center / cover no-repeat, #F8F9FA;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.card-thumbnail {
+  border: 2px solid #E9E9E9 ;
+  box-shadow: 0px 0px 8px 0px;
+  border-radius: 30px;
+}
+
+.parrafo.parrafo-card {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  white-space: pre-line;
+}
+
+.titulo.titulo-card {
+  font-size: 2rem;
+  color: #E70000;
+  text-shadow: 1px 1px 0px var(--bs-emphasis-color);
+  text-align: center;
+}
+

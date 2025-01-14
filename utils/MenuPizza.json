@@ -1,0 +1,34 @@
+{
+  "pizzas": [
+    {
+      "titulo": "Pizza Pepperoni Clásica",
+      "descripcion": "Salsa de tomate, queso mozzarella, pepperoni en rodajas, orégano.",
+      "precio": 1500
+    },
+    {
+      "titulo": "Pizza Buffalo",
+      "descripcion": "Salsa buffalo picante, queso mozzarella, tiras de pollo marinado, cebolla morada, un toque de queso azul.",
+      "precio": 1700
+    },
+    {
+      "titulo": "Pizza Hawaiana",
+      "descripcion": "Salsa de tomate, queso mozzarella, jamón cocido, piña fresca, orégano.",
+      "precio": 1600
+    },
+    {
+      "titulo": "Pizza Cuatro Quesos",
+      "descripcion": "Mozzarella, queso azul, queso parmesano, queso provolone, un toque de orégano.",
+      "precio": 1800
+    },
+    {
+      "titulo": "Pizza Vegetariana",
+      "descripcion": "Mozzarella, queso azul, queso parmesano, queso provolone, un toque de orégano.",
+      "precio": 1800
+    },
+    {
+      "titulo": "Pizza Barbacoa",
+      "descripcion": "Salsa BBQ, queso mozzarella, tiras de carne asada, cebolla caramelizada, pimientos asados.",
+      "precio": 1850
+    }
+  ]
+} 

@@ -1,0 +1,22 @@
+#aboutUsSection {
+  height: initial;
+  background: url("/wave-haikei.svg") bottom / contain no-repeat, url("/pizzafull.webp.webp") bottom right / contain no-repeat, url("/pizza-vector-pagina-blanco.png.png") top / auto no-repeat, #990000;
+}
+
+.titulo.titulo-about-us {
+  font-size: 2rem;
+}
+
+#titulo-about-us {
+  font-size: 4rem;
+}
+
+#subtitulo-about-us {
+  font-size: 5rem;
+}
+
+.titulos-about-us {
+  color: #F1F1F1;
+  text-shadow: 2px 2px 8px var(--bs-body-color);
+}
+

@@ -1,0 +1,35 @@
+{
+    "bebidas": [
+      {
+        "titulo": "Gaseosa (500 ml)",
+        "descripcion": "Coca-Cola, Sprite, Fanta.",
+        "precio": 400
+      },
+      {
+        "titulo": "Agua Mineral (500 ml)",
+        "descripcion": "Con gas o sin gas.",
+        "precio": 350
+      },
+      {
+        "titulo": "Limonada Casera",
+        "descripcion": "Jugo de limón fresco, azúcar, agua y hielo.",
+        "precio": 600
+      },
+      {
+        "titulo": "Té Helado",
+        "descripcion": "Té negro infusionado, limón, azúcar y hielo.",
+        "precio": 550
+      },
+      {
+        "titulo": "Bebida Energética (500 ml)",
+        "descripcion": "Red Bull, Monster.",
+        "precio": 800
+      },
+      {
+        "titulo": "Agua Saborizada (500 ml)",
+        "descripcion": "Naranja, limón, durazno.",
+        "precio": 750
+      }
+    ]
+  }
+  
