@@ -9,10 +9,10 @@ const Contacto = () => {
         <div className="row">
           <div className="col-md-12">
             <h1 className="titulo-contacto titulo">¡Conecta con Nosotros!</h1>
-            <h4 className="titulo-contacto subtitulo">
+            <h5 className="titulo-contacto subtitulo">
               Ya sea para hacer un pedido, realizar una consulta, o simplemente
               decir hola.
-            </h4>
+            </h5>
           </div>
         </div>
         <div className="row flex-row justify-content-center">
