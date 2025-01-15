@@ -49,7 +49,7 @@ const Hero = () => {
               alt="Pizza italiana"
               width={500}
               height={500}
-              priority
+              loading="lazy"
             />
           </div>
         </div>
