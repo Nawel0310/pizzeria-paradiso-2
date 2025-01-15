@@ -31,7 +31,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/app/opengraph-image.png",
+        url: "@/app/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Pizza Pepperoni Artesanal en Pizzería Paradiso",
