@@ -1,22 +1,27 @@
 import TestimoniosCard from "./TestimoniosCard";
 import "@/styles/testimoniosStyles.css";
 
+import Testimonio1 from "@/public/persona1.webp.webp"
+import Testimonio2 from "@/public/persona2.webp.webp"
+import Testimonio3 from "@/public/luis-villasmil-hh3ViD0r0Rc-unsplash.webp.webp"
+
+
 const testimoniosData = [
   {
     nombre: "Andrea Gutiérrez",
-    imagen: "persona1.webp.webp",
+    imagen: Testimonio1,
     descripcion: "No soy una gran fanática de la pizza... Pero la pizza Búfalo es sencillamente increíble. El balance perfecto entre lo picante y lo sabroso.\n\nDefinitivamente, mi nueva pizza favorita.",
     alt: "Testimonio de mujer joven"
   },
   {
     nombre: "Juan Perez",
-    imagen: "persona2.webp.webp",
+    imagen: Testimonio2,
     descripcion: "La calidad de los ingredientes y el sabor son insuperables.\n\nAdemás, el ambiente es tan acogedor que me siento como en casa cada vez que la visito.",
     alt: "Testimonio de hombre joven"
   },
   {
     nombre: "Diego Ramírez",
-    imagen: "luis-villasmil-hh3ViD0r0Rc-unsplash.webp.webp",
+    imagen: Testimonio3,
     descripcion: "He probado muchas pizzas hawaianas, pero ninguna se compara con la que hacen aquí.\n\nLa combinación de la piña dulce con el jamón ahumado es simplemente perfecta.",
     alt: "Testimonio de hombre joven"
   }

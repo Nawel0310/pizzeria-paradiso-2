@@ -47,8 +47,8 @@ const Hero = () => {
               className="rounded img-fluid w-100 fit-cover"
               src="/pizza-png.webp.webp"
               alt="Pizza italiana"
-              width={500}
-              height={500}
+              width={600}
+              height={300}
               loading="lazy"
             />
           </div>

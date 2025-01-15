@@ -1,19 +1,23 @@
+import Image from "next/image";
+
+
 const CarouselItem = ({ isActive, imagen, titulo, descripcion }) => {
   return (
-    <div className={`carousel-item ${isActive ? 'active' : ''}`}>
+    <div className={`carousel-item ${isActive ? "active" : ""}`}>
       <div className="container contenedor-pizzas">
         <div className="row">
           <div className="col-md-6 d-flex flex-column justify-content-center align-items-center align-content-center">
-            <img
+            <Image
               className="img-fluid w-100 fit-cover rounded img-carousel"
               src={imagen}
               alt={titulo}
+              loading="lazy"
+              width={600}
+              height={300}
             />
           </div>
           <div className="col-md-6">
-            <h1 className="titulo-container titulo">
-              {titulo}
-            </h1>
+            <h1 className="titulo-container titulo">{titulo}</h1>
             <div className="div-parrafo">
               <p className="parrafo-container desc-pizza parrafo">
                 {descripcion}

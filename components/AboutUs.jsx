@@ -1,6 +1,9 @@
 
 import "@/styles/aboutUsStyles.css";
 import Card from "./Card";
+import ImagenTestimonio1 from "@/public/amasar-la-masa.webp.webp"
+import ImagenTestimonio2 from "@/public/pizzaservice.webp.webp"
+import ImagenTestimonio3 from "@/public/pizzaView.avif.avif"
 
 
 const AboutUs = () => {
@@ -20,7 +23,7 @@ const AboutUs = () => {
         </div>
         <div className="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex justify-content-center align-items-center align-content-center">
           <Card
-            imagen="amasar-la-masa.webp.webp"
+            imagen={ImagenTestimonio1}
             titulo="Nuestra Historia"
             parrafo={
               <>
@@ -35,7 +38,7 @@ const AboutUs = () => {
           />
 
           <Card
-            imagen="pizzaservice.webp.webp"
+            imagen={ImagenTestimonio2}
             titulo="Nuestros Servicios"
             parrafo={
               <>
@@ -51,7 +54,7 @@ const AboutUs = () => {
           />
 
           <Card
-            imagen="pizzaView.avif.avif"
+            imagen={ImagenTestimonio3}
             titulo="Nuestra Filosofía"
             parrafo={
               <>

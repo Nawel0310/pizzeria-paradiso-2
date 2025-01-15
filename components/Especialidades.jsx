@@ -1,10 +1,14 @@
 import "@/styles/especialidadesStyles.css";
 import CarouselItem from "./CarouselItem";
+import Pizza1 from "@/public/pizza1.png.png"
+import Pizza2 from "@/public/pizza2.webp.webp"
+import Pizza3 from "@/public/pizza3.png.png"
+
 
 const Especialidades = () => {
   const pizzas = [
     {
-      imagen: "pizza1.png.png",
+      imagen: Pizza1,
       titulo: (
         <>
           <span style={{ color: "rgb(207, 39, 52)" }}>Pepper</span>
@@ -16,7 +20,7 @@ const Especialidades = () => {
         "Una base crujiente y dorada, cubierta con nuestra salsa de tomate casera, queso mozzarella derretido, y una generosa cantidad de rodajas de pepperoni perfectamente especiado. Una opción irresistible para los amantes de lo clásico.",
     },
     {
-      imagen: "pizza2.webp.webp",
+      imagen: Pizza2,
       titulo: (
         <>
           <span style={{ color: "rgb(207, 39, 52)" }}>Hawai</span>
@@ -28,7 +32,7 @@ const Especialidades = () => {
         "Una invitación para una combinación única de ingredientes: jugosa piña dorada, tierno jamón ahumado, y queso mozzarella que se funde en cada bocado. La mezcla dulce y salada te llevará a un paraíso de sabores para quienes buscan algo diferente.",
     },
     {
-      imagen: "pizza3.png.png",
+      imagen: Pizza3,
       titulo: (
         <>
           <span style={{ color: "rgb(207, 39, 52)" }}>Buffa</span>

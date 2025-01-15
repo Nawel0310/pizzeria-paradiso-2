@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 const TestimoniosCard = ({ nombre, imagen, descripcion }) => {
   return (
     <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
@@ -6,12 +9,13 @@ const TestimoniosCard = ({ nombre, imagen, descripcion }) => {
           {descripcion}
         </p>
         <div className="d-flex">
-          <img
+          <Image
             className="rounded-circle flex-shrink-0 me-3 fit-cover img-testimonios"
-            width="50"
-            height="50"
             src={imagen}
             alt={nombre}
+            loading="lazy"
+            width={50} // Especificar el ancho
+            height={50} // Especificar la altura
           />
           <div className="d-flex flex-row justify-content-center align-items-center align-content-center">
             <h1 className="titulo titulo-testimonio">{nombre}</h1>
