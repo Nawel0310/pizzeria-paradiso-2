@@ -8,7 +8,7 @@ import Contacto from '@/components/Contacto';
 export default function HomePage() {
   return (
     <>
-      {/*<Hero/>*/}
+      <Hero/>
       <AboutUs />
       <Especialidades />
       <Testimonios />
