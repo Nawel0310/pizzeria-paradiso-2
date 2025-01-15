@@ -2,6 +2,7 @@
 import "@/styles/aboutUsStyles.css";
 import Card from "./Card";
 
+
 const AboutUs = () => {
   return (
     <>
