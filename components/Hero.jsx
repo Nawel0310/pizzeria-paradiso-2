@@ -3,7 +3,6 @@ import Link from "next/link";
 import "../styles/Hero-Clean-images.css"
 import "../styles/heroStyles.css"
 
-
 const Hero = () => {
   return (
     <section id="heroSection">
